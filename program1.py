@@ -9,7 +9,7 @@ def isValid(s: str) -> bool:
             # Pop the top element from the stack if it's not empty; otherwise, assign a dummy value '#'
             top_element = stack.pop() if stack else '#'
 
-            # If the mapping for the current closing bracket doesn't match the stack's top element, return False
+            
             if bracket_map[char] != top_element:
                 return False
         else:
