@@ -5,7 +5,7 @@ def isValid(s: str) -> bool:
 
     # Iterate through each character in the string
     for char in s:
-        if char in bracket_map:  # It's a closing bracket
+        if char in bracket_map:  
            
             top_element = stack.pop() if stack else '#'
 
