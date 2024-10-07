@@ -16,7 +16,7 @@ def isValid(s: str) -> bool:
             # It's an opening bracket, push it to the stack
             stack.append(char)
 
-    # If the stack is empty, all the open brackets have been matched properly
+   
     return not stack
 
 
