@@ -6,7 +6,7 @@ def isValid(s: str) -> bool:
     # Iterate through each character in the string
     for char in s:
         if char in bracket_map:  # It's a closing bracket
-            # Pop the top element from the stack if it's not empty; otherwise, assign a dummy value '#'
+           
             top_element = stack.pop() if stack else '#'
 
             
