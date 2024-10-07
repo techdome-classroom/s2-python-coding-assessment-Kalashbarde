@@ -3,7 +3,7 @@ def isValid(s: str) -> bool:
     bracket_map = {')': '(', '}': '{', ']': '['}
     stack = []
 
-    # Iterate through each character in the string
+   
     for char in s:
         if char in bracket_map:  
            
